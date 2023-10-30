@@ -1,0 +1,473 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  padding: 4% 8%;
+  background-color: #e6e6e6fa;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 4%;
+  box-shadow: 0 13px 40px grey;
+  margin-bottom: 40px;
+}
+
+.left-intro img {
+  border-radius: 12px;
+  width: 100%;
+}
+
+.left-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+
+.intro {
+  display: flex;
+}
+
+.right-intro {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.top-intro {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.info-left {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.info-right {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 1.5rem;
+  color: #828282;
+}
+
+.name {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #4f4f4f;
+}
+
+.role {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #828282;
+}
+
+.email {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: #4f4f4f;
+}
+
+.phone {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #4f4f4f;
+}
+
+.mid {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.mid-left {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.mid-right {
+  display: flex;
+  flex-direction: column;
+  padding-right: 0;
+  row-gap: 50px;
+}
+
+.mid-right-2 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+  overflow: hidden;
+}
+
+.mid-right-2 img {
+  position: relative;
+  left: 50px;
+  width: 70%;
+  border-radius: 12px;
+}
+
+h6 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: #e0e0e0;
+}
+
+h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  width: 50%;
+  font-size: 2.5rem;
+  line-height: 40px;
+  color: #333333;
+}
+
+a {
+  font-size: 1.3rem;
+  color: #2f80ed;
+}
+
+.mid > div {
+  width: 48%;
+}
+
+.mid-left-top {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 29px;
+  color: #4f4f4f;
+}
+
+.mid-left-top img {
+  width: 100%;
+  height: 250px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.experiences-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20%;
+}
+
+#experiences {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.experience-logo img {
+  width: 60%;
+}
+
+.experience-text h5 {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 20px;
+  color: #333;
+}
+
+.experience-text p {
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 17px;
+  color: #828282;
+}
+
+#project {
+  font-weight: 700;
+  font-size: 18px;
+  color: #4f4f4f;
+}
+
+.last-column img {
+  display: flex;
+  width: 100%;
+  border: 1px solid #828282;
+  border-radius: 12px;
+  object-fit: cover;
+  margin: 0;
+}
+
+.last-column {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.last-column > div {
+  width: 30%;
+}
+
+#project-1,
+#project-2,
+#project-3 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.project-card-footer {
+  display: flex;
+  text-decoration: none;
+  justify-content: flex-start;
+  column-gap: 30px;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 12px 12px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.project-card-footer a {
+  display: inline;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 20px 40px;
+  border-radius: 12px;
+  background-color: #2f80ed;
+  cursor: pointer;
+}
+
+#skills {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.skills-continer {
+  display: flex;
+}
+
+.skills-continer > div {
+  width: 50%;
+}
+
+.skill-level {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  margin-bottom: 16px;
+}
+
+#skills h6 {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 20px;
+  color: gray;
+  width: 10px;
+  flex-shrink: 0;
+}
+
+.skill-meter {
+  position: relative;
+  width: 75%;
+  height: 9px;
+  background: #c4c4c4;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+#skill-block-2 {
+  margin-left: 20px;
+}
+
+.skill-meter span {
+  display: block;
+  height: 9px;
+  background: #5c94e1;
+  border-radius: 12px;
+}
+
+#project-button {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.buttons {
+  display: flex;
+  column-gap: 20px;
+}
+
+button {
+  color: #2f80ed;
+  border: 1px solid #2f80ed;
+  padding: 20px 40px;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+button:hover {
+  background-color: #2f80ed;
+  color: #fafafa;
+  cursor: pointer;
+}
+
+.last-buttons input {
+  color: #2f80ed;
+  border: 1px solid #2f80ed;
+  padding: 20px 40px;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+.last-buttons input:hover {
+  background-color: #2f80ed;
+  color: #fafafa;
+}
+
+@media (max-width: 900px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-intro {
+    margin-left: 20px;
+  }
+
+  .bottom-intro p {
+    padding: 0;
+  }
+
+  .right-intro {
+    width: 50%;
+  }
+
+  .top-intro {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .mid-right {
+    padding-right: 4%;
+  }
+  .mid-right-2 {
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+  }
+
+  .mid-right-3 p {
+    padding: 0;
+  }
+
+  .mid-right-2 h4 {
+    width: 100%;
+  }
+
+  .mid-right-2 img {
+    left: 0;
+    right: 20px;
+  }
+
+  .last-column {
+    flex-direction: column;
+  }
+
+  .last-column > div {
+    width: 100%;
+  }
+
+  .project-content > p,
+  h5 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .intro {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    width: 100%;
+  }
+
+  .right-intro {
+    padding: 0;
+    width: 100%;
+  }
+
+  .mid {
+    flex-direction: column;
+    width: 100%;
+    row-gap: 20px;
+  }
+
+  .mid > div {
+    width: 100%;
+  }
+
+  .experiences-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skill-meter {
+    width: 50%;
+  }
+}
